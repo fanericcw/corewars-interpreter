@@ -1,0 +1,84 @@
+body {
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-around;
+	background-color: aliceblue;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 2;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.5;
+	color: seashell;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #222;
+}
+
+canvas {
+	display: block;
+	border: 1px solid #000;
+	flex-grow: 1;
+	margin: 0 auto;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	flex-grow: 3;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+button {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 5px 10px;
+	border: 1px solid #222;
+	border-radius: 3px;
+	background-color: #fff;
+	cursor: pointer;
+	margin: 5px auto;
+}
+
+textarea {
+	font-family: monospace;
+	font-size: 14px;
+}
+
+footer {
+	background-color: rebeccapurple;
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	border-top: 1px solid #222;
+}
+
+
+
+
+
